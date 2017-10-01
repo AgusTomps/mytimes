@@ -1,0 +1,147 @@
+/* Header -------------------------------------------------------*/
+.header{
+  display: flex;
+  font-family: Verdana;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  border-bottom: 1px solid black;
+}
+
+.header .logo{
+  display: inline-flex;
+  position: relative;
+  left: 30px;
+}
+
+.header .textlogo{
+  display: inline-flex;
+  position: relative;
+  left: 40px;
+}
+
+.header nav{
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  left: 70%;
+  width: 250px;
+  align-items: center;
+  color: black;
+  text-decoration: underline;
+}
+
+/* Great container ----------------------------------------------*/
+.great{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 70px;
+  margin-left: 53px;
+  margin-right: 53px;
+  padding: 40px 30px 0px 0px;
+  border: 1px black solid;
+}
+
+/* left container ------------------------------------------------*/
+.left-container{
+  display: inline-flex;
+  width: 50%;
+  border: 1px black solid;
+  flex-direction: column;
+}
+
+.tuna{
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.heading-tuna{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.text-tuna{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.orca{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.earth{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.burguer{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.cameras{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+/* Mid container --------------------------------------------------*/
+.mid-container{
+  display: inline-flex;
+  width: 25%;
+  border: 1px black solid;
+  flex-direction: column;
+}
+
+.fbi{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.cats{
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.cats-heading{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.cats-text{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+/* Right container ------------------------------------------------*/
+.right-container{
+  display: inline-flex;
+  flex-direction: column;
+  width: 240px;
+  border: 1px black solid;
+}
+
+.cookie-image{
+  margin: 0px;
+}
+
+.news-heading{
+  border: 1px black solid;
+  margin: 0px;
+}
+
+.news-list{
+  border: 1px black solid;
+  margin: 0px;
+}
