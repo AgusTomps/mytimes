@@ -1,3 +1,35 @@
+/* general -------------------------------------------------------*/
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+h2{
+  font-family: Georgia;
+  font-size: 30px;
+}
+
+h3{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+
+h4{
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+
 /* Header -------------------------------------------------------*/
 .header{
   display: flex;
@@ -52,7 +84,7 @@
 /* left container ------------------------------------------------*/
 .left-container{
   display: inline-flex;
-  width: 50%;
+  width: 630px;
   border: 1px black solid;
   flex-direction: column;
 }
@@ -64,12 +96,24 @@
   margin: 0px;
 }
 
-.heading-tuna{
-  border: 1px black solid;
+.tuna-img{
+  display: flex;
   margin: 0px;
+  width: 630px;
+  height: 300px;
+  background-image: url(img-story-main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.text-tuna{
+.tuna-heading{
+  padding-top: 0px;
+  margin: auto;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tuna-text{
   border: 1px black solid;
   margin: 0px;
 }
@@ -80,8 +124,19 @@
 }
 
 .earth{
+  display: flex;
   border: 1px black solid;
   margin: 0px;
+  height: 300px;
+  background-image: url(img-story-2.png);
+  background-size: contain;
+}
+
+.earth-heading{
+  padding-top: 0px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .burguer{
@@ -90,14 +145,25 @@
 }
 
 .cameras{
+  display: flex;
   border: 1px black solid;
   margin: 0px;
+  height: 300px;
+  background-image: url(img-story-3.png);
+  background-size: contain;
+}
+
+.cameras-heading{
+  padding-top: 0px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* Mid container --------------------------------------------------*/
 .mid-container{
   display: inline-flex;
-  width: 25%;
+  width: 300px;
   border: 1px black solid;
   flex-direction: column;
 }
@@ -114,9 +180,21 @@
   margin: 0px;
 }
 
-.cats-heading{
-  border: 1px black solid;
+.cats-img{
+  display: flex;
   margin: 0px;
+  height: 299px;
+  width: 300px;
+  background-image: url(img-story-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cats-heading{
+  padding-top: 0px;
+  margin: auto;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .cats-text{
