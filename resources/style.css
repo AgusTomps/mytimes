@@ -25,8 +25,8 @@ h3{
 }
 
 h4{
-  font-family: Georgia;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 
@@ -241,9 +241,109 @@ h4{
 }
 
 .news-heading{
-  margin: 0px;
+ font-size: 10px;
+ font-weight: bold;
+ text-align: center;
+ margin-bottom: 40px;
 }
 
-.news-list{
-  margin: 0px;
+#news-list{
+  background-color: WhiteSmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+#news-list p{
+  font-family: Verdana;
+  font-size: 14px;
+  color: DimGray;
+
+}
+
+.cat-emoji{
+  border-bottom: 1px solid black;
+  padding: 0px 20px;
+}
+
+.youtube{
+  border-bottom: 1px solid black;
+  padding: 0px 20px;
+}
+
+.home-business{
+  border-bottom: 1px solid black;
+  padding: 0px 20px;
+}
+
+.advertising{
+  border-bottom: 1px solid black;
+  padding: 0px 20px;
+}
+
+.illustration{
+  border-bottom: 1px solid black;
+  padding: 0px 20px;
+}
+
+.secret{
+  border-bottom: 1px solid black;
+  padding: 0px 20px;
+}
+
+/* Footer --------------------------------------------------*/
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #MediumAquamarine;
+  text-align: center;
+  padding: 150px;
+}
+
+.content{
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+
+}
+
+.footer-logo{
+  display: inline-flex;
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.division{
+  display: inline-flex;
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+.footer-nav{
+  display: inline-flex;
+  text-decoration: underline;
+  font-family: Verdana;
+}
+
+.copyright p{
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  font-family: Verdana;
+  font-size: 13px;
+  font-style: normal;
+  margin: 0;
 }
